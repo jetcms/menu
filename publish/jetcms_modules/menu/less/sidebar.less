@@ -1,0 +1,42 @@
+.@{prefix}sidebar {
+  .sidebar-menu {
+    hr {
+      margin: 0px;
+    }
+    a {
+      color:#575656;
+      text-decoration: none;
+    }
+    .active > a {
+      color:@brand-success;
+      text-decoration: underline;
+    }
+
+    .active > label > a {
+      color:@brand-success;
+      text-decoration: underline;
+    }
+    .nav-header {
+      width: 100%;
+      margin-bottom: 0px;
+      a {
+        color:#575656;
+        padding: 10px 0px;
+        width: 100%;
+        display: inline-block;
+        padding-left: 3px;
+        &:hover {
+          background: @gray-lighter;
+        }
+      }
+    }
+
+    .tree {
+      padding-left: 10px;
+      .nav-header{
+        font-weight: 100;
+      }
+    }
+
+  }
+}
